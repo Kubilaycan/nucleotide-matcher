@@ -64,6 +64,8 @@
 
 	endProgram:
 		# End program
+		addi $s0, #s0, 1
+		addi $s1, $s1, 1
 		li $v0, 10
 		syscall
 
